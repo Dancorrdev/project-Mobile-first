@@ -113,7 +113,6 @@ main {
   height: auto;
   padding-top: 80px;
   padding-bottom: 30px;
-  text-align: center;
 }
 
 .main-exchange-container--title {
@@ -161,6 +160,7 @@ main {
 
 .main-currency-table .currency-table--title {
   margin-bottom: 15px;
+  margin-left: 35px;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
@@ -178,6 +178,7 @@ main {
 .currency-table--container table {
   width: 100%;
   height: 100%;
+  text-align: center;
 }
 
 .currency-table--container td {
@@ -247,5 +248,63 @@ main {
 .currency-table--date p {
   font-size: 1.2rem;
   line-height: 1.5rem;
+  font-weight: 300;
+  color: var(--warm-black);
+}
+
+.main-commissions-table {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.main-commissions-table .commissions-table--title {
+  margin-bottom: 15px;
+  margin-left: 35px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--secundary-blue);
+}
+
+.commissions-table--container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 70px;
+  gap: 5px;
+  background-color: var(--just-white);
+  place-items: center;
+  border-radius: 15px;
+}
+.commissions-table--container div {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  color: var(--gray);
+}
+.commissions-table--container .table__right{
+  font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+
+.commissions-table--date {
+  width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
+
+.commissions-table--date p{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 300;
   color: var(--warm-black);
 }
