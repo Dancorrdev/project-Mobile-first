@@ -164,6 +164,7 @@ main {
   height: 360px;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
+  text-align: center;
 }
 
 .main-currency-table .currency-table--title {
@@ -263,15 +264,16 @@ main {
 .main-commissions-table {
   width: 70%;
   min-width: 235px;
-  max-width: 500px;
+  max-width: 300px;
   height: 360px;
   margin: 0 auto;
+  margin-right: 10px;
   font-family: "Inter", sans-serif;
+  text-align: center;
 }
 
 .main-commissions-table .commissions-table--title {
   margin-bottom: 15px;
-  margin-left: 35px;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
@@ -435,7 +437,7 @@ main {
   width: 100%;
   min-width: 320px;
   height: 50vh;
-  background-image: url("./assets/img/bitcoinbaby2x.jpg");
+  background-image: url("./assets/img/bitcoinbaby.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -593,4 +595,9 @@ footer .left ul {
 .left a {
   text-decoration: none;
   color: var(--just-white);
+}
+
+.right img {
+  width: auto;
+  height:auto;
 }
